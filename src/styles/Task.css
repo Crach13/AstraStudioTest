@@ -1,0 +1,62 @@
+.task{
+}
+.task-hidden{
+    visibility: hidden;
+}
+.task-image{
+    display: inline-block;
+    align-items: flex-end;
+    transform: rotate(15deg);
+    margin-top: 3%;
+}
+.task-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.task-title{
+    display: block;
+    text-align: left;
+    vertical-align: top;
+    font-size: 26px;
+    font-weight: bold;
+    width: 380px;
+    height: 20px;
+    margin-bottom: 17%;
+    margin-left: 5%;
+}
+.progress {
+    display: block;
+    background: #fffdcc;
+    border-radius: 50px;
+    padding: 2px 2px 2px 2px;
+    height: 20px;
+    width: 110%;
+    margin-left: 5%;
+}
+
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #4c4d48;
+    border-radius: 50px;
+    background: #859251;
+    height: 20px;
+    width: 0;
+}
+
+.task-block-btn{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.btn{
+    margin-left: 50px;
+    margin-bottom: 5px;
+    border: solid 2px;
+    font-size: 18px;
+    height: 40px;
+    background-color: #eed868;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px 5px rgb(191,168,76);
+}
