@@ -1,15 +1,10 @@
 import React, {Component} from "react";
 import '../styles/App.css';
-import imgKings from '../img/task-kings.png';
-import imgTime from '../img/task-time.png';
-import imgTournaments from '../img/task-tournaments.png';
-import imgBackgroundScreen from '../img/background-screen.png';
 import imgContent from '../img/background.png'
 import ImgHeader from '../img/header.png';
 import moment from 'moment';
 import Task from './Task.js';
 import axios from 'axios';
-import 'bootstrap';
 
 function Timer(props) {
     return (
